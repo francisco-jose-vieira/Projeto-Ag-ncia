@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* comentra = ctrl + k + c */
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap; /*ESTUDAR*/
+    height: 100px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    flex: 20%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.logo h1 {
+    font-family: 'Lobster', sans-serif;
+    color: #180F4A;
+    font-size: 34px;
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: #180F4A;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    color: #FF2978;
+    border-top: 3px solid #FF2978;
+}
+
+#botao {
+    background-color: #180F4A;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover {
+    border: none;
+    background: #FF2978;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    background: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline {
+    flex: 40%;
+    margin-left: 10%;
+    border: 1px solid black;
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #180F4A;
+    padding: 0;
+    margin: 0;
+}
+
+.img-headline {
+    flex: 40%;
+    margin-right: 10%;
+    /* border: 1px solid white; */
+    text-align: center;
+    
+}
+
+.img-headline img {
+    max-width: 90%;
+}
